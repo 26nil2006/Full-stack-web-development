@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+body{
+    background-color: black;
+}
+
+.nav-main{
+    display: flex;
+    position: fixed;
+    padding:20px;
+    width: 100%;
+    background-color: black;
+    gap:55%;
+    z-index: 100;
+}
+
+.logo{
+    padding-left: 30px;
+}
+
+.nav-part ul li {
+    list-style : none;
+    
+}
+
+
+.nav-part ul {
+    display: flex;
+    gap: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-part ul li a:hover{
+    color: red;
+}
+
+.nav-part ul li a:active{
+    color: green;
+}
+
+.home{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5vw;
+    height: 78vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.homedetails1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-details-1{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.home-details-2{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.home-details-3{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    
+.photo img{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+}  
+
+.about{
+    position: relative;
+    padding: 5vw 10vw 5vw 10vw
+    ;
+    height: 78vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-line-1{
+    text-align: center;
+    padding-top: 3vw;
+    font-size:3rem;
+    font-weight: bold;
+    color: rgb(79, 230, 177);
+}
+
+.about-line-2{
+    padding-top: 5vw;
+}
+
+.about-line-2 div{
+    line-height: 2vw;
+    font-size: 1.2rem;
+}
+
+.about-line-2 p{
+    margin-top: 3vw;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.contact-number{
+    padding-top: 2vw;
+}
+
+.contact-email{
+    padding-top: 1vw;
+}
+
+.skill{
+    position: relative;
+    padding: 5vw;
+    height: 78vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-1{
+    text-align: center;
+    padding-top: 3vw;
+    font-size:3rem;
+    font-weight: bold;
+    color: rgb(79, 230, 177);
+}
+
+.skill-2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skill-3{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+   
+}
+.skill-3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skill-3 div div{
+    padding-top: 2vw;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.skill-3 img{
+    width:60%;
+    height: 60%;
+}
+
+.contact{
+    position: relative;
+    padding: 5vw;
+    height: 78vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-1{
+    text-align: center;
+    padding-top: 3vw;
+    font-size:3rem;
+    font-weight: bold;
+    color: rgb(79, 230, 177);
+}
+
+.contact-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact-2 form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.contact-2 form input{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    color: black;
+    background-color:#b8d2fd;
+}
+
+.contact-2 form textarea{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    color: black;
+    background-color:#b8d2fd;
+}
+
+.contact-2-button{
+    width: 25%;
+    cursor: pointer;
+    margin-left: 35%;
+    
+}
+
+.contact-2 input[type=button]{
+    background-color: blue;
+    color: white;
+}

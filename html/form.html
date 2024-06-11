@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>User Id</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="Gender"> Male <input type="radio"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mobile Number
+                </td>
+                <td>
+                    <input type="number" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email
+                </td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea rows="3" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>Year</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    city
+                </td>
+                <td>
+                    <select id="talukas" name="talukas">
+                        <optgroup label="Ahmedabad District">
+                            <option value="ahmedabad_city">Ahmedabad City</option>
+                            <option value="bavla">Bavla</option>
+                            <option value="daskroi">Daskroi</option>
+                            <option value="dholka">Dholka</option>
+                            <option value="dhandhuka">Dhandhuka</option>
+                            <option value="detroj_rampura">Detroj-Rampura</option>
+                            <option value="sanand">Sanand</option>
+                            <option value="viramgam">Viramgam</option>
+                            <option value="mandal">Mandal</option>
+                            <option value="barwala">Barwala</option>
+                            <option value="ranpur">Ranpur</option>
+                        </optgroup>
+                        <optgroup label="Amreli District">
+                            <option value="amreli">Amreli</option>
+                            <option value="babra">Babra</option>
+                            <option value="bagasara">Bagasara</option>
+                            <option value="dhari">Dhari</option>
+                            <option value="jafrabad">Jafrabad</option>
+                            <option value="khambha">Khambha</option>
+                            <option value="kunkavav">Kunkavav</option>
+                            <option value="lathi">Lathi</option>
+                            <option value="rajula">Rajula</option>
+                            <option value="savarkundla">Savarkundla</option>
+                        </optgroup>
+                        <optgroup label="Anand District">
+                            <option value="anand">Anand</option>
+                            <option value="anklav">Anklav</option>
+                            <option value="borsad">Borsad</option>
+                            <option value="khambhat">Khambhat</option>
+                            <option value="petlad">Petlad</option>
+                            <option value="sojitra">Sojitra</option>
+                            <option value="tarapur">Tarapur</option>
+                            <option value="umreth">Umreth</option>
+                        </optgroup>
+                        <optgroup label="Aravalli District">
+                            <option value="bayad">Bayad</option>
+                            <option value="bhiloda">Bhiloda</option>
+                            <option value="dhansura">Dhansura</option>
+                            <option value="malpur">Malpur</option>
+                            <option value="meghraj">Meghraj</option>
+                            <option value="modasa">Modasa</option>
+                        </optgroup>
+                        <optgroup label="Banaskantha District">
+                            <option value="amirgadh">Amirgadh</option>
+                            <option value="bhabhar">Bhabhar</option>
+                            <option value="danta">Danta</option>
+                            <option value="dantiwada">Dantiwada</option>
+                            <option value="deesa">Deesa</option>
+                            <option value="deodar">Deodar</option>
+                            <option value="dhanera">Dhanera</option>
+                            <option value="palanpur">Palanpur</option>
+                            <option value="tharad">Tharad</option>
+                            <option value="vadgam">Vadgam</option>
+                            <option value="vav">Vav</option>
+                        </optgroup>
+                        <optgroup label="Bharuch District">
+                            <option value="amod">Amod</option>
+                            <option value="ankleshwar">Ankleshwar</option>
+                            <option value="bharuch">Bharuch</option>
+                            <option value="hansot">Hansot</option>
+                            <option value="jambusar">Jambusar</option>
+                            <option value="jhagadia">Jhagadia</option>
+                            <option value="netrang">Netrang</option>
+                            <option value="valia">Valia</option>
+                            <option value="vagra">Vagra</option>
+                        </optgroup>
+                        <optgroup label="Bhavnagar District">
+                            <option value="bhavnagar">Bhavnagar</option>
+                            <option value="gariadhar">Gariadhar</option>
+                            <option value="ghogha">Ghogha</option>
+                            <option value="jesar">Jesar</option>
+                            <option value="mahuva">Mahuva</option>
+                            <option value="palitana">Palitana</option>
+                            <option value="sihor">Sihor</option>
+                            <option value="talaja">Talaja</option>
+                            <option value="umrala">Umrala</option>
+                        </optgroup>
+                        <optgroup label="Botad District">
+                            <option value="botad">Botad</option>
+                            <option value="gadhada">Gadhada</option>
+                            <option value="barvala">Barvala</option>
+                            <option value="ranpur">Ranpur</option>
+                        </optgroup>
+                        <optgroup label="Chhota Udaipur District">
+                            <option value="bodeli">Bodeli</option>
+                            <option value="chhota_udaipur">Chhota Udaipur</option>
+                            <option value="kawant">Kawant</option>
+                            <option value="naswadi">Naswadi</option>
+                            <option value="pavijetpur">Pavijetpur</option>
+                            <option value="sankheda">Sankheda</option>
+                        </optgroup>
+                        <optgroup label="Dahod District">
+                            <option value="dahod">Dahod</option>
+                            <option value="devgadh_baria">Devgadh Baria</option>
+                            <option value="fatepura">Fatepura</option>
+                            <option value="garbada">Garbada</option>
+                            <option value="limkheda">Limkheda</option>
+                            <option value="sanjeli">Sanjeli</option>
+                            <option value="dhanpur">Dhanpur</option>
+                            <option value="zalod">Zalod</option>
+                        </optgroup>
+                        <optgroup label="Dang District">
+                            <option value="ahwa">Ahwa</option>
+                            <option value="subir">Subir</option>
+                            <option value="waghai">Waghai</option>
+                        </optgroup>
+                        <optgroup label="Devbhoomi Dwarka District">
+                            <option value="bhanvad">Bhanvad</option>
+                            <option value="dwarka">Dwarka</option>
+                            <option value="khambhalia">Khambhalia</option>
+                            <option value="kalyanpur">Kalyanpur</option>
+                        </optgroup>
+                        <optgroup label="Gandhinagar District">
+                            <option value="gandhinagar">Gandhinagar</option>
+                            <option value="kalol">Kalol</option>
+                            <option value="mansa">Mansa</option>
+                            <option value="dehgam">Dehgam</option>
+                        </optgroup>
+                        <optgroup label="Gir Somnath District">
+                            <option value="gir_gadhada">Gir Gadhada</option>
+                            <option value="veraval">Veraval</option>
+                            <option value="kodinar">Kodinar</option>
+                            <option value="una">Una</option>
+                            <option value="sutrapada">Sutrapada</option>
+                            <option value="talala">Talala</option>
+                        </optgroup>
+                        <optgroup label="Jamnagar District">
+                            <option value="dhrol">Dhrol</option>
+                            <option value="jamjodhpur">Jamjodhpur</option>
+                            <option value="jamnagar">Jamnagar</option>
+                            <option value="jodiya">Jodiya</option>
+                            <option value="kalavad">Kalavad</option>
+                            <option value="lalpur">Lalpur</option>
+                        </optgroup>
+                        <optgroup label="Junagadh District">
+                            <option value="bhesan">Bhesan</option>
+                            <option value="junagadh">Junagadh</option>
+                            <option value="keshod">Keshod</option>
+                            <option value="malia">Malia</option>
+                            <option value="manavadar">Manavadar</option>
+                            <option value="mangrol">Mangrol</option>
+                            <option value="mendarda">Mendarda</option>
+                            <option value="visavadar">Visavadar</option>
+                            <option value="vanthali">Vanthali</option>
+                        </optgroup>
+                        <optgroup label="Kheda District">
+                            <option value="kapadvanj">Kapadvanj</option>
+                            <option value="kathlal">Kathlal</option>
+                            <option value="kheda">Kheda</option>
+                            <option value="mahemdavad">Mahemdavad</option>
+                            <option value="matar">Matar</option>
+                            <option value="mehmedabad">Mehmedabad</option>
+                            <option value="nadiad">Nadiad</option>
+                            <option value="thasra">Thasra</option>
+                            <option value="vaso">Vaso</option>
+                            <option value="galteshwar">Galteshwar</option>
+                        </optgroup>
+                        <optgroup label="Kutch District">
+                            <option value="abdasa">Abdasa</option>
+                            <option value="anjar">Anjar</option>
+                            <option value="bhachau">Bhachau</option>
+                            <option value="bhuj">Bhuj</option>
+                            <option value="gandhidham">Gandhidham</option>
+                            <option value="lakhpat">Lakhpat</option>
+                            <option value="mandvi">Mandvi</option>
+                            <option value="mundra">Mundra</option>
+                            <option value="nakhatrana">Nakhatrana</option>
+                            <option value="rapar">Rapar</option>
+                        </optgroup>
+                        <optgroup label="Mahisagar District">
+                            <option value="balasinor">Balasinor</option>
+                            <option value="kadana">Kadana</option>
+                            <option value="khanpur">Khanpur</option>
+                            <option value="lunawada">Lunawada</option>
+                            <option value="santrampur">Santrampur</option>
+                            <option value="virpur">Virpur</option>
+                        </optgroup>
+                        <optgroup label="Mehsana District">
+                            <option value="becharaji">Becharaji</option>
+                            <option value="jotana">Jotana</option>
+                            <option value="kadi">Kadi</option>
+                            <option value="kheralu">Kheralu</option>
+                            <option value="mehsana">Mehsana</option>
+                            <option value="unjha">Unjha</option>
+                            <option value="vadnagar">Vadnagar</option>
+                            <option value="visnagar">Visnagar</option>
+                            <option value="vijapur">Vijapur</option>
+                            <option value="gojariya">Gojariya</option>
+                            <option value="satlasana">Satlasana</option>
+                        </optgroup>
+                        <optgroup label="Morbi District">
+                            <option value="halvad">Halvad</option>
+                            <option value="maliya">Maliya</option>
+                            <option value="morbi">Morbi</option>
+                            <option value="tankara">Tankara</option>
+                            <option value="wankaner">Wankaner</option>
+                        </optgroup>
+                        <optgroup label="Narmada District">
+                            <option value="dediapada">Dediapada</option>
+                            <option value="garudeshwar">Garudeshwar</option>
+                            <option value="nandod">Nandod</option>
+                            <option value="sagbara">Sagbara</option>
+                            <option value="tilakwada">Tilakwada</option>
+                        </optgroup>
+                        <optgroup label="Navsari District">
+                            <option value="chikhli">Chikhli</option>
+                            <option value="gandevi">Gandevi</option>
+                            <option value="jalalpore">Jalalpore</option>
+                            <option value="khergam">Khergam</option>
+                            <option value="navsari">Navsari</option>
+                            <option value="vansda">Vansda</option>
+                        </optgroup>
+                        <optgroup label="Panchmahal District">
+                            <option value="godhra">Godhra</option>
+                            <option value="ghoghamba">Ghoghamba</option>
+                            <option value="halol">Halol</option>
+                            <option value="jambughoda">Jambughoda</option>
+                            <option value="kalol">Kalol</option>
+                            <option value="lunawada">Lunawada</option>
+                            <option value="morwa_hadaf">Morwa Hadaf</option>
+                            <option value="santrampur">Santrampur</option>
+                            <option value="shehra">Shehra</option>
+                        </optgroup>
+                        <optgroup label="Patan District">
+                            <option value="chanasma">Chanasma</option>
+                            <option value="harij">Harij</option>
+                            <option value="patan">Patan</option>
+                            <option value="radhanpur">Radhanpur</option>
+                            <option value="sami">Sami</option>
+                            <option value="santalpur">Santalpur</option>
+                            <option value="sarasvati">Sarasvati</option>
+                            <option value="sidhpur">Sidhpur</option>
+                        </optgroup>
+                        <optgroup label="Porbandar District">
+                            <option value="kutiyana">Kutiyana</option>
+                            <option value="porbandar">Porbandar</option>
+                            <option value="ranavav">Ranavav</option>
+                        </optgroup>
+                        <optgroup label="Rajkot District">
+                            <option value="dhoraji">Dhoraji</option>
+                            <option value="gondal">Gondal</option>
+                            <option value="jamkandorna">Jamkandorna</option>
+                            <option value="jasdan">Jasdan</option>
+                            <option value="jetpur">Jetpur</option>
+                            <option value="kotda_sangani">Kotda Sangani</option>
+                            <option value="lodhika">Lodhika</option>
+                            <option value="paddhari">Paddhari</option>
+                            <option value="rajkot">Rajkot</option>
+                            <option value="upleta">Upleta</option>
+                        </optgroup>
+                        <optgroup label="Sabarkantha District">
+                            <option value="bayad">Bayad</option>
+                            <option value="dhansura">Dhansura</option>
+                            <option value="himmatnagar">Himmatnagar</option>
+                            <option value="idar">Idar</option>
+                            <option value="khedbrahma">Khedbrahma</option>
+                            <option value="malpur">Malpur</option>
+                            <option value="meghraj">Meghraj</option>
+                            <option value="prantij">Prantij</option>
+                            <option value="talod">Talod</option>
+                            <option value="vadali">Vadali</option>
+                            <option value="vijaynagar">Vijaynagar</option>
+                        </optgroup>
+                        <optgroup label="Surat District">
+                            <option value="bardoli">Bardoli</option>
+                            <option value="choryasi">Choryasi</option>
+                            <option value="kamrej">Kamrej</option>
+                            <option value="mahuva">Mahuva</option>
+                            <option value="mandvi">Mandvi</option>
+                            <option value="mangrol">Mangrol</option>
+                            <option value="olpad">Olpad</option>
+                            <option value="palsana">Palsana</option>
+                            <option value="umarpada">Umarpada</option>
+                            <option value="surat_city">Surat City</option>
+                        </optgroup>
+                        <optgroup label="Surendranagar District">
+                            <option value="chotila">Chotila</option>
+                            <option value="dasada">Dasada</option>
+                            <option value="dhrangadhra">Dhrangadhra</option>
+                            <option value="lakhtar">Lakhtar</option>
+                            <option value="limbdi">Limbdi</option>
+                            <option value="muli">Muli</option>
+                            <option value="sayla">Sayla</option>
+                            <option value="surendranagar">Surendranagar</option>
+                            <option value="thangadh">Thangadh</option>
+                            <option value="wadhwan">Wadhwan</option>
+                        </optgroup>
+                        <optgroup label="Tapi District">
+                            <option value="dolvan">Dolvan</option>
+                            <option value="kukarmunda">Kukarmunda</option>
+                            <option value="nizar">Nizar</option>
+                            <option value="songadh">Songadh</option>
+                            <option value="uchchhal">Uchchhal</option>
+                            <option value="valod">Valod</option>
+                            <option value="vyara">Vyara</option>
+                        </optgroup>
+                        <optgroup label="Vadodara District">
+                            <option value="chhota_udaipur">Chhota Udaipur</option>
+                            <option value="dabhoi">Dabhoi</option>
+                            <option value="desar">Desar</option>
+                            <option value="karjan">Karjan</option>
+                            <option value="padra">Padra</option>
+                            <option value="savli">Savli</option>
+                            <option value="sinor">Sinor</option>
+                            <option value="vadodara">Vadodara</option>
+                            <option value="waghodia">Waghodia</option>
+                        </optgroup>
+                        <optgroup label="Valsad District">
+                            <option value="dharampur">Dharampur</option>
+                            <option value="kaparada">Kaparada</option>
+                            <option value="pardi">Pardi</option>
+                            <option value="umbergaon">Umbergaon</option>
+                            <option value="valsad">Valsad</option>
+                            <option value="vapi">Vapi</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="button" value="Submit"><input type="reset" value="Reset"></td>
+                
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
